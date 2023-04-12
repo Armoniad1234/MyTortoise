@@ -1,6 +1,6 @@
 import setuptools
 
-with open("README.md", "r", encoding="utf-8") as fh:
+with open("MyTortoise/README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -12,10 +12,10 @@ setuptools.setup(
     description="A high quality multi-voice text-to-speech library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/neonbjb/tortoise-tts",
+    url="https://github.com/Armoniad1234/MyTortoise",
     project_urls={},
     scripts=[
-        'scripts/tortoise_tts.py',
+        'MyTortoise/scripts/tortoise_tts.py',
     ],
     include_package_data=True,
     install_requires=[
